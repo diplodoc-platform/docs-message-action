@@ -36,7 +36,7 @@ runs:
 
         MESSAGE=""
         if [ "${{ github.event.workflow_run.conclusion }}" == "success" ]; then
-            MESSAGE+="\nRevision builded successful"
+            MESSAGE+="\nRevision built successfully"
             MESSAGE+="\nRevision preview [link]($PROJECT_LINK?revision=${REVISION})"
             CARD_ICON=$ICON_OK
         else
