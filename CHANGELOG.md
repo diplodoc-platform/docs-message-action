@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/diplodoc-platform/docs-message-action/compare/v1.0.2...v1.1.0) (2024-04-19)
+
+
+### Features
+
+* make project-link parameter optional ([4ec92cb](https://github.com/diplodoc-platform/docs-message-action/commit/4ec92cba1ee9c113770ed7f8e37eb3ed6fb1c2ed))
+
 ## [1.0.2](https://github.com/diplodoc-platform/docs-message-action/compare/v1.0.1...v1.0.2) (2024-01-30)
 
 ## [1.0.1](https://github.com/diplodoc-platform/docs-message-action/compare/v1.0.0...v1.0.1) (2024-01-30)
