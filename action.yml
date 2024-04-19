@@ -5,7 +5,7 @@ inputs:
   github-token:
     required: true
   project-link:
-    required: true
+    required: false
 
 runs:
   using: composite
@@ -37,7 +37,11 @@ runs:
         MESSAGE=""
         if [ "${{ github.event.workflow_run.conclusion }}" == "success" ]; then
             MESSAGE+="\nRevision built successfully"
-            MESSAGE+="\nRevision preview [link]($PROJECT_LINK?revision=${REVISION})"
+
+            if [ -n "$PROJECT_LINK" ]; then
+                MESSAGE+="\nRevision preview [link]($PROJECT_LINK?revision=${REVISION})"
+            fi
+
             CARD_ICON=$ICON_OK
         else
             MESSAGE+="\nRevision build failed"
