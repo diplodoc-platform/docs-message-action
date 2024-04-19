@@ -11,7 +11,7 @@ This GitHub action adds a comment to the pull request with the build log or prev
 ## Inputs
 
 - `github-token` (required) - GitHub access token for authentication and authorization
-- `project-link` (required) - The link to the project documentation
+- `project-link` (optional) - The link to the project documentation
 
 ## Usage
 
