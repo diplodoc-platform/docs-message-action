@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/diplodoc-platform/docs-message-action/compare/v1.1.0...v1.1.1) (2026-06-25)
+
+
+### Bug Fixes
+
+* **ci:** update actions/github-script@v7 ([f1edeab](https://github.com/diplodoc-platform/docs-message-action/commit/f1edeab80f0350f83cad1152e56f18590c7b17d1))
+
 ## [1.1.0](https://github.com/diplodoc-platform/docs-message-action/compare/v1.0.2...v1.1.0) (2024-04-19)
 
 
